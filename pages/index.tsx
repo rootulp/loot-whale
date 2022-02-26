@@ -27,7 +27,7 @@ const Home: NextPage<HomeProps> = ({wallets}) => {
         <h1 className={styles.title}>
             🐳 Loot Whales
         </h1>
-        <Table className={styles.table} bordered={true} striped={true}>
+        <Table className={styles.table} bordered={true} striped={true} responsive={true}>
                 <thead>
                     <tr>
                         <th>Rank</th>
