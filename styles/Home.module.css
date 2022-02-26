@@ -41,13 +41,15 @@
 
 .title {
   margin: 0;
-  line-height: 1.15;
-  font-size: 2rem;
+  line-height: 2.5rem;
+  font-size: 2.25rem;
+  font-weight: 400;
 }
 
 .title,
 .description {
   text-align: center;
+  font-family: EB Garamond, serif;
 }
 
 .description {
