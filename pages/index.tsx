@@ -30,7 +30,7 @@ const Home: NextPage<HomeProps> = ({wallets}) => {
         <table style={{ minWidth: 600 }}>
                 <thead>
                     <tr>
-                        <th>Position</th>
+                        <th>Rank</th>
                         <th>Address</th>
                         <th>Bags Held</th>
                     </tr>
@@ -39,7 +39,7 @@ const Home: NextPage<HomeProps> = ({wallets}) => {
                 {wallets.map((wallet, index) => {
                     return (<tr key={wallet.address}>
                         <td>{index + 1}</td>
-                        <td>{useENSName(wallet.address)}</td>
+                        <td>{getExplorerAddressLink(wallet.address)}</td>
                         <td>{wallet.bagsHeld}</td>
                     </tr>)
                 })}
@@ -48,6 +48,16 @@ const Home: NextPage<HomeProps> = ({wallets}) => {
       </main>
     </div>
   )
+}
+
+/** Create a link to Etherscan for the provided address
+ * Inspired by the deprecated `getExplorerAddressLink` from usedapp
+ * @link https://usedapp.readthedocs.io/en/latest/core.html#getexploreraddresslink-deprecated
+ **/
+function getExplorerAddressLink(address: string): JSX.Element {
+    const ETHERSCAN_BASE_URL = "https://etherscan.io/address/"
+    return <a href={`${ETHERSCAN_BASE_URL}/${address}`} >{address}</a>
+
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {
