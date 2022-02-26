@@ -3,6 +3,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { GetServerSideProps } from 'next'
 import { ApolloClient, InMemoryCache, gql } from '@apollo/client';
+import Table from 'react-bootstrap/Table'
 
 interface Wallet {
     address: string
@@ -26,7 +27,7 @@ const Home: NextPage<HomeProps> = ({wallets}) => {
         <h1 className={styles.title}>
             🐳 Loot Whales
         </h1>
-        <table className={styles.table}>
+        <Table className={styles.table} bordered={true} striped={true}>
                 <thead>
                     <tr>
                         <th>Rank</th>
@@ -43,7 +44,7 @@ const Home: NextPage<HomeProps> = ({wallets}) => {
                     </tr>)
                 })}
                 </tbody>
-            </table>
+            </Table>
       </main>
     </div>
   )

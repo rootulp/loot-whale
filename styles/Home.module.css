@@ -117,18 +117,7 @@
   }
 }
 
+/* Min-width is 750px before things look squished */
 .table {
   margin-top: 2rem;
-  border-collapse: collapse;
-  width: 60%;
-}
-
-.table td, .table th {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-}
-
-.table tr:nth-child(even) {
-  background-color: #f2f2f2;
 }
