@@ -1,6 +1,6 @@
 # loot-whale
 
-> A table of [Loot](https://www.lootproject.com/) whales 🐳
+A table of [Loot](https://www.lootproject.com/) whales 🐳. Build with [loot-subgraph](https://github.com/divinerobes/loot-subgraph), [@apollo/client](https://www.apollographql.com/docs/react/). Deployed via [Vercel](https://vercel.com).
 
 ## Local Development
 
@@ -10,20 +10,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 1. Run `yarn dev`
 1. Open [http://localhost:3000](http://localhost:3000)
 
-### Helpful Links
+## Ideas for future work
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-## Inspiration
-
-- [lootloose.com](https://github.com/Anish-Agnihotri/lootloose.com)
-- [loot-subgraph](https://github.com/divinerobes/loot-subgraph)
-
-## Further work
-
-- Display whales for AGLD
-- Display whales for unbundled Loot items
+- [ ] Display whales for AGLD
+- [ ] Display whales for unbundled Loot items
 
 ## Contribute
 
