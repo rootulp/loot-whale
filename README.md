@@ -24,7 +24,3 @@ This data can be fetched via Dune (example [query](https://dune.xyz/queries/4549
 ## Contribute
 
 I'd appreciate any feedback or ideas via [issues](https://github.com/rootulp/loot-leaderboard/issues/new).
-
-## License
-
-[MIT](https://rootulp.mit-license.org/) © [Rootul Patel](https://rootulp.com)
