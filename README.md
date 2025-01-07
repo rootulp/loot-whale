@@ -1,5 +1,10 @@
 # loot-whale
 
+> [!CAUTION]
+> This project is broken because The Graph removed an endpoint.
+> ![Screenshot 2025-01-06 at 10 22 26 PM](https://github.com/user-attachments/assets/565f9aca-0aa4-4a40-9eb5-4875567f3869)
+
+
 A table of [Loot](https://www.lootproject.com/) whales 🐳.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
